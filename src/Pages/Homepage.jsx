@@ -16,7 +16,7 @@ const Homepage = () => {
     try {
       const res = await fetch(`https://api.edamam.com/api/recipes/v2/?app_id=${APP_ID}&app_key=${APP_KEY}&q=${searchQuery}&type=public`);
       const data = res.json();
-      console.log(data);
+      setRecipes(data);
     } catch (error) {
       console.log(error);
     } finally {
