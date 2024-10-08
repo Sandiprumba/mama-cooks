@@ -17,8 +17,8 @@ const DesktopSidebar = () => {
     <div className="hidden w-24 min-h-screen p-3 border-r md:p-10 md:w-60 sm:block">
       <div className="sticky left-0 flex flex-col gap-20 top-10">
         <div className="w-full">
-          <img src="/public/mamacook.png" alt="mamacook" className="hidden md:block" />
-          <img src="/public/mamalogo.png" alt="logo" className="block md:hidden" />
+          <img src="/mamacook.png" alt="mamacook" className="hidden md:block" />
+          <img src="/mamalogo.png" alt="logo" className="block md:hidden" />
         </div>
         <ul className="flex flex-col items-center gap-8 md:items-start">
           <Link to="/" className="flex gap-1">
